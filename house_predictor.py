@@ -37,8 +37,8 @@ class HousePriceModel:
     # Prepare Data
     def prepare_data(self):
 
-        if 'Unnamed: 0' in self.df.columns:
-            self.df.drop(columns=['Unnamed: 0'], inplace=True)
+        if 'id' in self.df.columns:
+            self.df.drop(columns=['id'], inplace=True)
 
         # Features
         X = self.df[['number of bedrooms', 'number of bathrooms', 'living area',
