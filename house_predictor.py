@@ -422,7 +422,7 @@ st.markdown("""
         </div>
     """, unsafe_allow_html=True)
 
-st.image("C:\\Users\\savita\\Downloads\\OIP (1).webp", width=700)
+st.image("OIP (1).webp", width=700)
 st.write("")
 st.subheader("Predict house prices using Machine Learning")
 
