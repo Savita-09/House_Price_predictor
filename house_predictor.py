@@ -195,8 +195,8 @@ if __name__ == "__main__":
 )
     print(f"Predicted House Price: ₹{predicted_price:,.2f}")
     
-#with open("house_price_model.pkl", "rb") as file:
- #   model = pickle.load(file)
+with open("house_price_model.pkl", "rb") as file:
+    model = pickle.load(file)
 
 
 st.set_page_config(
