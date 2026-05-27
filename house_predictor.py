@@ -163,7 +163,7 @@ class HousePriceModel:
 if __name__ == "__main__":
 
     house_model = HousePriceModel(
-        "C:\\Users\\savita\\Downloads\\House Price India.csv"
+        "House Price India.csv"
     )
 
     house_model.load_data()
