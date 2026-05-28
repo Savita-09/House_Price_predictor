@@ -546,7 +546,7 @@ if st.button("Predict Price"):
         prediction = np.exp(prediction_log)
 
         st.success(
-            f"Estimated House Price: {prediction[0]:,.0f}"
+            f"Estimated House Price: INR{prediction[0]:,.0f}"
         )
 
     except Exception as e:
